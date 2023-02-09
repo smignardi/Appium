@@ -9,24 +9,15 @@ import utilities.Logs;
 public class LoginTest extends BaseTest {
 
     private LoginPage loginPage;
-    @Test
-    public void launchAppTest() {
-        try{
-            Thread.sleep(2500);
-        }catch (InterruptedException interruptedException){
-            Logs.error(interruptedException.getLocalizedMessage());
-        }
-    }
 
     @Test
-    public void unhappyTest() {
+    public void unhappyTest() throws InterruptedException {
         loginPage.fillForm("steven","mignardi");
         loginPage.verifyErrorMessage();
         try{
             Thread.sleep(2500);
         }catch (InterruptedException interruptedException){
-            Logs.error(interruptedException.getLocalizedMessage());
-        }
+            Logs.error(interruptedException.getLocalizedMessage());}
     }
 
     @Override
