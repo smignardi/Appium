@@ -37,7 +37,7 @@ public class LoginPage extends BasePage {
     }
 
     @Step("Filling username with {0} and password {1}")
-    public void fillForm(String username, String password) throws InterruptedException {
+    public void fillForm(String username, String password){
         Logs.info(String.format("Filling the username %s",username));
         driver.findElement(usernameInput).sendKeys(username);
 

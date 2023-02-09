@@ -11,7 +11,7 @@ public class LoginTest extends BaseTest {
     private LoginPage loginPage;
 
     @Test
-    public void unhappyTest() throws InterruptedException {
+    public void unhappyTest(){
         loginPage.fillForm("steven","mignardi");
         loginPage.verifyErrorMessage();
         try{
