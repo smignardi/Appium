@@ -16,13 +16,13 @@ public abstract class BasePage {
     public BasePage(AndroidDriver driver) {
         this.driver = driver;
         timeout=DEFAULT_TIMEOUT;
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
     }
 
     public BasePage(AndroidDriver driver, int timeout) {
         this(driver);
         this.timeout=timeout;
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
     }
 
     public abstract void waitPageToLoad();
