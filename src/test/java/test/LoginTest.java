@@ -7,26 +7,18 @@ import page.LoginPage;
 import utilities.Logs;
 
 public class LoginTest extends BaseTest {
-
     private LoginPage loginPage;
+
     @Test
-    public void launchAppTest() {
-        try{
-            Thread.sleep(2500);
-        }catch (InterruptedException interruptedException){
-            Logs.error(interruptedException.getLocalizedMessage());
-        }
+    public void invalidCredentialsTest(){
+        loginPage.fillForm("aaa","aaa");
+        loginPage.verifyErrorMessage("Username and password do not match any user in this service.");
     }
 
     @Test
-    public void unhappyTest() {
-        loginPage.fillForm("steven","mignardi");
-        loginPage.verifyErrorMessage();
-        try{
-            Thread.sleep(2500);
-        }catch (InterruptedException interruptedException){
-            Logs.error(interruptedException.getLocalizedMessage());
-        }
+    public void lockedOutUserTest(){
+        loginPage.fillForm("locked_out_user","secret_sauce");
+        loginPage.verifyErrorMessage("Sorry, this user has been locked out.");
     }
 
     @Override
