@@ -9,6 +9,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class DriverManager {
+
+    private static AndroidDriver driver;
+
     public AndroidDriver buildLocalDriver(){
         Logs.debug("Building local driver");
         try{
@@ -24,11 +27,17 @@ public class DriverManager {
             desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"uiautomator2");
             desiredCapabilities.setCapability(MobileCapabilityType.APP,fileApk.getAbsolutePath());
 
-            return new AndroidDriver(new URL(appiumUrl),desiredCapabilities);
+            final var driver = new AndroidDriver(new URL(appiumUrl),desiredCapabilities);
+            this.driver = driver;
+            return driver;
         }catch (MalformedURLException malformedURLException){
             malformedURLException.printStackTrace();
             Logs.error("Failed building local driver");
             return null;
         }
+    }
+
+    public static AndroidDriver getStaticDriver() {
+        return driver;
     }
 }

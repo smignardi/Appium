@@ -7,4 +7,15 @@
         </run>
     </groups>
 
+    <listeners>
+        <listener class-name="listeners.TestListeners"></listener>
+        <listener class-name="listeners.SuiteListeners"></listener>
+    </listeners>
+
+    <test name="login">
+        <packages>
+            <package name="login"></package>
+        </packages>
+    </test>
+
 </suite>

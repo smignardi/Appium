@@ -17,6 +17,7 @@ public abstract class BasePage {
         this.driver = driver;
         timeout=DEFAULT_TIMEOUT;
         wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
+        softAssert = new SoftAssert();
     }
 
     public BasePage(AndroidDriver driver, int timeout) {
@@ -26,5 +27,5 @@ public abstract class BasePage {
     }
 
     public abstract void waitPageToLoad();
-    public abstract void verifyPage();
+    public abstract void verifyPage() throws InterruptedException;
 }

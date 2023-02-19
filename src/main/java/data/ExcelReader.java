@@ -1,6 +1,7 @@
 package data;
 
 import com.poiji.bind.Poiji;
+import model.CredentialErrorMessageModel;
 import model.CredentialModel;
 
 import java.io.File;
@@ -11,5 +12,9 @@ public class ExcelReader {
 
     public List<CredentialModel> getCredentialList(){
         return Poiji.fromExcel(new File(excelPath),CredentialModel.class);
+    }
+
+    public List<CredentialErrorMessageModel> getCredentialErrorMessageList(){
+        return Poiji.fromExcel(new File(excelPath), CredentialErrorMessageModel.class);
     }
 }

@@ -1,5 +1,6 @@
 package data;
 
+import model.CredentialErrorMessageModel;
 import model.CredentialModel;
 
 public class DataCaller {
@@ -17,5 +18,13 @@ public class DataCaller {
 
     public CredentialModel getLockedCredential(){
         return mapParser.getCredentialMap().get("locked");
+    }
+
+    public String getInvalidErrorMessage(){
+        return mapParser.getCredentialErrorMessageMap().get("invalid").getMessage();
+    }
+
+    public String getLockedErrorMessage(){
+        return mapParser.getCredentialErrorMessageMap().get("locked").getMessage();
     }
 }
