@@ -9,6 +9,26 @@ public class Logs {
     public static void printSeparator() {
         log.info("------------------------------------------------------------------------------------------");
     }
+    private final static String smallSeparator = "**********************************************************";
+
+    public static void preconditionStart() {
+        printSeparator();
+        log.info("SETUP");
+        printSeparator();
+    }
+
+    public static void postConditionStart() {
+        printSeparatorDebug();
+        log.debug("TEARDOWN");
+        printSeparatorDebug();
+    }
+
+    public static void postConditionFinish() {
+        printSeparatorDebug();
+    }
+    private static void printSeparatorDebug() {
+        log.debug(smallSeparator);
+    }
 
     private static void printNewLine() {
         log.info("");

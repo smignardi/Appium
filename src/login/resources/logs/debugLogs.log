@@ -1,0 +1,78 @@
+23:29:05.764 [main] INFO  AUTOMATION - 
+23:29:05.768 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:05.769 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:05.769 [main] INFO  AUTOMATION - Beginning: Smoke suite
+23:29:05.769 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:05.769 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:05.770 [main] INFO  AUTOMATION - 
+23:29:05.770 [main] DEBUG AUTOMATION - Deleting screenshots directory
+23:29:05.786 [main] DEBUG AUTOMATION - Deleting screenshots directory
+23:29:05.786 [main] DEBUG AUTOMATION - Redirecting stderr
+23:29:05.852 [TestNG-method=setup-1] DEBUG AUTOMATION - Building local driver
+23:29:16.376 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:29:16.380 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:29:16.381 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+23:29:16.516 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:29:16.784 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+23:29:16.799 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Filling the username hola_mundo
+23:29:17.066 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Filling the password secret_sauce
+23:29:18.114 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Clicking on login button
+23:29:18.660 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:29:18.661 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:29:18.661 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+23:29:18.663 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:29:18.702 [TestNG-method=invalidCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+23:29:18.703 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Verifying error message is displayed
+23:29:19.350 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:19.350 [main] INFO  AUTOMATION - PASSED
+23:29:19.350 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:19.350 [main] INFO  AUTOMATION - 
+23:29:19.350 [main] INFO  AUTOMATION - 
+23:29:19.350 [main] DEBUG AUTOMATION - Taking screenshot
+23:29:19.668 [TestNG-method=teardown-1] DEBUG AUTOMATION - Killing the driver
+23:29:20.230 [TestNG-method=setup-1] DEBUG AUTOMATION - Building local driver
+23:29:29.482 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:29:29.483 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:29:29.484 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+23:29:29.486 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:29:29.499 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+23:29:29.500 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Filling the username locked_out_user
+23:29:31.063 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Filling the password secret_sauce
+23:29:32.166 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Clicking on login button
+23:29:32.705 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:29:32.707 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:29:32.707 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+23:29:32.709 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:29:32.717 [TestNG-method=lockedOutUserTest-1] DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+23:29:32.718 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Verifying error message is displayed
+23:29:33.367 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:33.367 [main] INFO  AUTOMATION - PASSED
+23:29:33.367 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:33.367 [main] INFO  AUTOMATION - 
+23:29:33.367 [main] INFO  AUTOMATION - 
+23:29:33.368 [main] DEBUG AUTOMATION - Taking screenshot
+23:29:33.663 [TestNG-method=teardown-1] DEBUG AUTOMATION - Killing the driver
+23:29:34.249 [TestNG-method=setup-1] DEBUG AUTOMATION - Building local driver
+23:29:43.341 [TestNG-method=validCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:29:43.343 [TestNG-method=validCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+23:29:43.344 [TestNG-method=validCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet3.xml.rels
+23:29:43.345 [TestNG-method=validCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:29:43.355 [TestNG-method=validCredentialsTest-1] DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+23:29:43.356 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Filling the username standard_user
+23:29:44.381 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Filling the password secret_sauce
+23:29:45.431 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Clicking on login button
+23:29:47.107 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:47.108 [main] INFO  AUTOMATION - PASSED
+23:29:47.108 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:47.108 [main] INFO  AUTOMATION - 
+23:29:47.108 [main] INFO  AUTOMATION - 
+23:29:47.108 [main] DEBUG AUTOMATION - Taking screenshot
+23:29:47.707 [TestNG-method=teardown-1] DEBUG AUTOMATION - Killing the driver
+23:29:48.284 [TestNG-method=setup-1] DEBUG AUTOMATION - Building local driver
+23:29:58.472 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:58.473 [main] INFO  AUTOMATION - PASSED
+23:29:58.473 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+23:29:58.473 [main] INFO  AUTOMATION - 
+23:29:58.473 [main] INFO  AUTOMATION - 
+23:29:58.473 [main] DEBUG AUTOMATION - Taking screenshot
+23:29:58.781 [TestNG-method=teardown-1] DEBUG AUTOMATION - Killing the driver

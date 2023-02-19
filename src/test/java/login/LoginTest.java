@@ -1,4 +1,4 @@
-package test;
+package login;
 
 import base.BaseTest;
 import io.appium.java_client.android.AndroidDriver;

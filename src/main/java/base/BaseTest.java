@@ -2,6 +2,7 @@ package base;
 
 import data.DataCaller;
 import io.appium.java_client.android.AndroidDriver;
+import listeners.InvokeMethodListeners;
 import listeners.SuiteListeners;
 import listeners.TestListeners;
 import net.bytebuddy.utility.Invoker;
@@ -14,7 +15,7 @@ import page.LoginPage;
 import utilities.DriverManager;
 import utilities.Logs;
 
-@Listeners({TestListeners.class, SuiteListeners.class})
+@Listeners({TestListeners.class, SuiteListeners.class, InvokeMethodListeners.class})
 public abstract class BaseTest {
     protected final String regression = "Regression";
     protected final String smoke = "Smoke";
