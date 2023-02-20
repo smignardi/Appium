@@ -43,6 +43,14 @@ public class LoginTest extends BaseTest {
         loginPage.verifyErrorMessage(dataCaller.getLockedErrorMessage());
     }
 
+    @Test(groups = {regression})
+    @Step("Verifying locked out user tap test")
+    public void lockedOutUserTapTest(){
+        loginPage.scrollLockedOutUserLogin();
+        loginPage.clickOnLogin();
+        loginPage.verifyErrorMessage(dataCaller.getLockedErrorMessage());
+    }
+
     @Override
     public void initPages(AndroidDriver driver) {
         loginPage = new LoginPage(driver);

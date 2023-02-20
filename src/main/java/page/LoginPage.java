@@ -17,6 +17,9 @@ public class LoginPage extends BasePage {
     private final By loginButton = new AppiumBy.ByAccessibilityId("test-LOGIN");
     private final By errorMessage = new AppiumBy.ByAccessibilityId("test-Error message");
 
+    private final String lockedOutUserLabelUI2 = "description(\"test-locked_out_user\")";
+    private final By lockedOutUserLabel = new AppiumBy.ByAccessibilityId("test-locked_out_user");
+
     private By getErrorMessageBy(String messageText){
         final var uiautomator2Locator = String.format("text(\"%s\")",messageText);
         return AppiumBy.androidUIAutomator(uiautomator2Locator);
@@ -59,5 +62,18 @@ public class LoginPage extends BasePage {
         Logs.info("Verifying error message is displayed");
         wait.until(ExpectedConditions.visibilityOfElementLocated(errorMessage));
         Assert.assertTrue(driver.findElement(getErrorMessageBy(message)).isDisplayed());
+    }
+
+    @Step("Scroll login")
+    public void scrollLockedOutUserLogin(){
+        Logs.info("Scroll and tap on locked out user");
+        gestures.verticalScrollInto(lockedOutUserLabelUI2).click();
+        driver.findElement(lockedOutUserLabel).click();
+    }
+
+    @Step("Clicking on login")
+    public void clickOnLogin(){
+        Logs.info("Clicking on login");
+        driver.findElement(loginButton).click();
     }
 }

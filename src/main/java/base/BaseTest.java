@@ -39,5 +39,9 @@ public abstract class BaseTest {
         return driver;
     }
 
+    protected void triggerDeeplink(String url){
+        driver.get(url);
+    }
+
     public abstract void initPages(AndroidDriver driver);
 }
