@@ -6,3 +6,4 @@ target
 **.iml
 /src/test/resources/debugEvidence
 /src/test/resources/screenshots
+/src/login/resources/logs
