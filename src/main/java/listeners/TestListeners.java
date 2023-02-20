@@ -19,7 +19,6 @@ public class TestListeners extends BaseListeners implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         printSuccess(result.getInstanceName(), result.getName());
-        fileManager.getScreenshot(driver,result.getName());
     }
 
     @Override

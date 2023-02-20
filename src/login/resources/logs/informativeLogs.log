@@ -1,38 +1,38 @@
-23:29:05.764 [main] INFO  AUTOMATION - 
-23:29:05.768 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:05.769 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:05.769 [main] INFO  AUTOMATION - Beginning: Smoke suite
-23:29:05.769 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:05.769 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:05.770 [main] INFO  AUTOMATION - 
-23:29:16.799 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Filling the username hola_mundo
-23:29:17.066 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Filling the password secret_sauce
-23:29:18.114 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Clicking on login button
-23:29:18.703 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Verifying error message is displayed
-23:29:19.350 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:19.350 [main] INFO  AUTOMATION - PASSED
-23:29:19.350 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:19.350 [main] INFO  AUTOMATION - 
-23:29:19.350 [main] INFO  AUTOMATION - 
-23:29:29.500 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Filling the username locked_out_user
-23:29:31.063 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Filling the password secret_sauce
-23:29:32.166 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Clicking on login button
-23:29:32.718 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Verifying error message is displayed
-23:29:33.367 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:33.367 [main] INFO  AUTOMATION - PASSED
-23:29:33.367 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:33.367 [main] INFO  AUTOMATION - 
-23:29:33.367 [main] INFO  AUTOMATION - 
-23:29:43.356 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Filling the username standard_user
-23:29:44.381 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Filling the password secret_sauce
-23:29:45.431 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Clicking on login button
-23:29:47.107 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:47.108 [main] INFO  AUTOMATION - PASSED
-23:29:47.108 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:47.108 [main] INFO  AUTOMATION - 
-23:29:47.108 [main] INFO  AUTOMATION - 
-23:29:58.472 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:58.473 [main] INFO  AUTOMATION - PASSED
-23:29:58.473 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
-23:29:58.473 [main] INFO  AUTOMATION - 
-23:29:58.473 [main] INFO  AUTOMATION - 
+11:33:07.533 [main] INFO  AUTOMATION - 
+11:33:07.537 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:07.537 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:07.537 [main] INFO  AUTOMATION - Beginning: Regression suite
+11:33:07.538 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:07.538 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:07.538 [main] INFO  AUTOMATION - 
+11:33:22.175 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Filling the username hola_mundo
+11:33:23.037 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Filling the password secret_sauce
+11:33:24.119 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Clicking on login button
+11:33:24.698 [TestNG-method=invalidCredentialsTest-1] INFO  AUTOMATION - Verifying error message is displayed
+11:33:25.355 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:25.355 [main] INFO  AUTOMATION - PASSED
+11:33:25.355 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:25.355 [main] INFO  AUTOMATION - 
+11:33:25.356 [main] INFO  AUTOMATION - 
+11:33:35.470 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Filling the username locked_out_user
+11:33:37.025 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Filling the password secret_sauce
+11:33:38.118 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Clicking on login button
+11:33:38.674 [TestNG-method=lockedOutUserTest-1] INFO  AUTOMATION - Verifying error message is displayed
+11:33:39.341 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:39.341 [main] INFO  AUTOMATION - PASSED
+11:33:39.341 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:39.341 [main] INFO  AUTOMATION - 
+11:33:39.341 [main] INFO  AUTOMATION - 
+11:33:49.517 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Filling the username standard_user
+11:33:51.050 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Filling the password secret_sauce
+11:33:51.685 [TestNG-method=validCredentialsTest-1] INFO  AUTOMATION - Clicking on login button
+11:33:53.410 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:53.411 [main] INFO  AUTOMATION - PASSED
+11:33:53.411 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:33:53.411 [main] INFO  AUTOMATION - 
+11:33:53.411 [main] INFO  AUTOMATION - 
+11:34:04.509 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:04.509 [main] INFO  AUTOMATION - PASSED
+11:34:04.509 [main] INFO  AUTOMATION - ------------------------------------------------------------------------------------------
+11:34:04.509 [main] INFO  AUTOMATION - 
+11:34:04.509 [main] INFO  AUTOMATION - 

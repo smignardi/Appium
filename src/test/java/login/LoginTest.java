@@ -2,6 +2,7 @@ package login;
 
 import base.BaseTest;
 import io.appium.java_client.android.AndroidDriver;
+import io.qameta.allure.Step;
 import org.testng.annotations.Test;
 import page.LoginPage;
 import page.TopBarPage;
@@ -11,12 +12,14 @@ public class LoginTest extends BaseTest {
     private TopBarPage topBarPage;
 
     @Test(groups = {regression})
+    @Step("Verifying page")
     public void verifyPage(){
         loginPage.waitPageToLoad();
         loginPage.verifyPage();
     }
 
     @Test(groups = {smoke,regression})
+    @Step("Verifying valid credential test")
     public void validCredentialsTest(){
         final var validCredentials = dataCaller.getValidCredential();
         loginPage.fillForm(validCredentials.getUsername(), validCredentials.getPassword());
@@ -25,6 +28,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test(groups = {regression})
+    @Step("Verifying invalid credential test")
     public void invalidCredentialsTest(){
         final var invalidCredentials = dataCaller.getInvalidCredential();
         loginPage.fillForm(invalidCredentials.getUsername(), invalidCredentials.getPassword());
@@ -32,6 +36,7 @@ public class LoginTest extends BaseTest {
     }
 
     @Test(groups = {regression})
+    @Step("Verifying locked out user test")
     public void lockedOutUserTest(){
         final var lockedCredentials = dataCaller.getLockedCredential();
         loginPage.fillForm(lockedCredentials.getUsername(), lockedCredentials.getPassword());
